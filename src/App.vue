@@ -501,6 +501,7 @@ img {
   color: #fff;
   border-radius: 70px;
   justify-items: center;
+  position: relative;
 }
 .sect9 p, .sect9 h2 {
   color: #fff;
@@ -522,6 +523,7 @@ footer {
   justify-content: space-evenly;
   text-align: left;
   font-size: 16px;
+  margin-bottom: 60px;
 }
 .foot-text {
   max-width: 25%;
@@ -553,8 +555,8 @@ input {
   background-color: #012130;
   height: 30px;
   overflow: hidden;
-  width: 101%;
-  padding-top: 10px;
-  
-}
+  width: 100%;
+  padding: 15px 0px;
+  position: absolute;
+  margin-top: -58px;}
 </style>
