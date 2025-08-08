@@ -248,14 +248,28 @@ import Navbar from './components/Navbar.vue';
         <p class="copy">Copyright &copy; 2025 PromptEarn</p>
       </div>
     </section>
-
   </main>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+  font-family: coolvetica;
+  src: url(./assets/Coolvetica\ Rg.otf);
+}
+
+
+#app {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 main {
   background-color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -278,6 +292,8 @@ section {
 
 h2 {
   font-size: 55px;
+  font-family: coolvetica;
+  font-style: regular;
 }
 
 p {
@@ -357,6 +373,7 @@ img {
 .sect3 {
   background-color: #E9FFEB;
   min-width: 100%;
+  margin-bottom: 0px;
 }
 .sect-wrap {
   margin-top: 100px;
@@ -404,6 +421,8 @@ img {
 .sect4 {
   background-color: #FFFFAA;
   min-width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .sect4 .sect-wrap, .sect5 .sect-wrap {
   margin-top: 20px;
@@ -428,6 +447,7 @@ img {
 .sect5 {
   min-width: 100%;
   background-color: #AAFFB1;
+  margin-top: 0px;
 }
 .sect6 .sect-wrapper, .sect7 .sect-wrapper {
   min-width: 80%;
